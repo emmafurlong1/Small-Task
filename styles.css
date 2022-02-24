@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0px 250px 0px 250px;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+p, label {
+    font-family: sans-serif;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+    padding: 5px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+#herobanner {
+    background-image: url("Images/Belichick.jpg");
+    height: 364px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.item2, .item3, .item4 {
+    padding: 0;
+    width: fit-content;
+}
+
+.contactform {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    width: fit-content;
+}
+
+input {
+    width: 100%;
+}
