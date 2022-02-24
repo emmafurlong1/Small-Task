@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    padding: 10px;
+    padding: 10px; 
 }
 
 ul {
@@ -25,7 +25,7 @@ li {
     display: inline;
     padding: 5px;
     font-family: sans-serif;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -34,15 +34,16 @@ p, label {
 }
 
 li a {
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: blue;
+    background-color: #6F8ED8;
     padding: 5px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -51,7 +52,7 @@ h2 {
 
 button {
     border: none;
-    background-color: blue;
+    background-color: #6F8ED8;
     color: white;
     padding: 10px;
     width: 100%;
@@ -62,13 +63,13 @@ footer {
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 footer p {
     font-family: sans-serif;
-    color: white;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -89,7 +90,7 @@ footer p {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 .container {
