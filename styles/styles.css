@@ -74,7 +74,8 @@ footer p {
 }
 
 #herobanner {
-    background-image: url("images/Belichick.jpg");
+    background-image: url("../images/Belichick.jpg");
+    height: 364px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,6 +85,7 @@ footer p {
 
 .herotext {
     text-align: center;
+    font-size: 36px;
     position: absolute;
     top: 50%;
     left: 50%;
